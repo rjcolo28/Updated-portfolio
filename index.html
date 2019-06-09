@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
     <!-- navbar -->
     <header>
         <nav class="nav-wrapper blue darken-4">
@@ -27,35 +26,43 @@
                     <i class="material-icons">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#projects">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
-                    <li><a href="#">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#projects">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <!-- Introduction -->
-        <div class="container blue lighten-5" id="bio">
+        <div class="container blue lighten-5" id="intro">
             <img src="assets/images/Headshot-1.jpg" class="headshot" />
-            <p class="blue-grey-text text-darken-3 flow-text">
-                My name is Ryan Colosanti. I am an aspiring game designer currently based in between Richmond, Virginia
-                and
-                Williamsburg, Virginia. I have always had a passion for video games from the first time I played
-                Pokemon Blue
-                on the Gameboy Color. They have always been a way for me to relax and escape for a brief period
-                of time. I love being a part of the many different worlds and discovering all of their secrets. Now I
-                want to give that same feeling adventure and wonder to other people of all walks of life by creating
-                the same video games that make me excited to pick up a controller and turn on the console.
-            </p>
             <p class="blue-grey-text text-darken-3 flow-text">
                 Here, you will find a multitude of projects I have completed in the past six months during a coding
                 boot camp. These projects were made with real professional work and in-demand skills in mind. While
                 these projects are focus on web development, I am also spending my personal time learning how to design
                 and write code for video games.
+            </p>
+        </div>
+    </header>
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/business-code-coding-270360.jpg"></div>
+    </div>
+    <!-- About me -->
+    <section class="containter section scrollspy" id="about">
+        <div class="container">
+            <h2>About</h2>
+            <p class="blue-grey-text text-darken-3 flow-text">
+                I am an aspiring game designer currently based in between Richmond, Virginia
+                and Williamsburg, Virginia. I have always had a passion for video games from the first time I played
+                Pokemon Blue on the Gameboy Color. They have always been a way for me to relax and escape for a brief
+                period of time. I love being a part of the many different worlds and discovering all of their secrets.
+                Now I want to give that same feeling adventure and wonder to other people of all walks of life by
+                creating the same video games that make me excited to pick up a controller and turn on the console.
             </p>
             <p class="blue-grey-text text-darken-3 flow-text">
                 Before I chose a path in development, I graduated from the University of Colorado with a Bachelor of
@@ -68,10 +75,10 @@
                 watching sports. Outside the house, I enjoy exploring museums and tasting local craft beers.
             </p>
         </div>
-    </header>
+    </section>
     <!-- parallax -->
     <div class="parallax-container">
-        <div class="parallax"><img src="assets/images/business-code-coding-270360.jpg"></div>
+            <div class="parallax"><img src="assets/images/business-code-coding-270360.jpg"></div>
     </div>
     <!-- Apps/Repositories -->
     <section class="container section scrollspy" id="projects">
@@ -136,25 +143,13 @@
         </div>
         <div class="row">
             <div class="col s12 l4">
-                <img style="vertical-align:middle" src="assets/images/bam.png"
-                    alt="BAM" class="responsive-img" id="pic3" />
-            </div>
-            <div class="col s12 l6 offset-l1">
-                <h3>BAMAZON</h3>
-                <p class="blue-grey-text text-darken-3 flow-text">A Node.js app that allows a user to access products in
-                    a SQL database and make "purchases" through the console.</p>
-                <a href="https://github.com/rjcolo28/BAMAZON/blob/master/README.md" target="_blank"
-                    class="btn-large blue darken-4 waves-effect waves-light">Repository</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 l4 push-l7">
                 <img style="vertical-align:middle" src="assets/images/RadLibs.png" alt="kingCrystalPic"
                     class="responsive-img" id="pic4" />
             </div>
-            <div class="col s12 l6 pull-l4 right-align">
+            <div class="col s12 l6 offset-l1">
                 <h3>RadLibs</h3>
-                <p class="blue-grey-text text-darken-3 flow-text">A fill-in-the-blank word game that holds user created stories and profiles in a MySQL database.</p>
+                <p class="blue-grey-text text-darken-3 flow-text">A fill-in-the-blank word game that holds user created
+                    stories and profiles in a MySQL database.</p>
                 <a href="https://dry-forest-45652.herokuapp.com/" target="_blank"
                     class="btn-large blue darken-4 waves-effect waves-light">App</a>
                 <a href="https://github.com/ischu/DomeHead" target="_blank"

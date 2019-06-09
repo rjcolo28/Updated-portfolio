@@ -1,27 +1,31 @@
 .headshot {
-    width: 45%;
-    float: left;
+    width: 35%;
+    float:left;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
+    align-content: center;
 }
 
-#bio {
+#intro {
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 100px;
+    height: 400px;
+    align-content: center;
 }
 
 .flow-text {
     width: 95%;
     margin-left: 10px;
-    margin-top: 1px;
+    margin-top: 30px;
+    align-content: center;
 }
 
 header {
     background-image: url(../images/abstract-attractive-backdrop-988872.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 1000px;
+    min-height: 750px;
 }
 
 @media screen and (max-width: 670px) {
