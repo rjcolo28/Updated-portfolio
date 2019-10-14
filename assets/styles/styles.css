@@ -8,10 +8,14 @@
 }
 
 #intro {
-    padding: 10px;
+    padding: 20px;
     margin-top: 100px;
     height: 400px;
     align-content: center;
+}
+
+#introText{
+    margin-top: 75px;
 }
 
 .flow-text {
@@ -53,6 +57,12 @@ header {
 #pic4 {
     position: relative;
     top: 80px;
+}
+
+#pic5 {
+    position: relative;
+    height: 300px;
+    top: 20px;
 }
 
 .parallax-container {
