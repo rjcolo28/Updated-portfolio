@@ -44,25 +44,48 @@ header {
     }
 }
 
+#pic1 {
+    position: relative;
+    left: 100px;
+}
+
 #pic2 {
     position: relative;
     top: 50px;
+    right: 30px;
 }
 
 #pic3 {
     position: relative;
     top: 75px;
+    left: 35px;
 }
 
 #pic4 {
     position: relative;
     top: 80px;
+    right: 35px;
 }
 
 #pic5 {
     position: relative;
+    top: 75px;
+    left: 120px;
+    width: 225px;
+}
+
+#pic6 {
+    position: relative;
     height: 300px;
     top: 20px;
+    right: 35px;
+}
+
+#pic7 {
+    position: relative;
+    height: 250px;
+    top: 20px;
+    left: 100px;
 }
 
 .parallax-container {
