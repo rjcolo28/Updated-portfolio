@@ -1,5 +1,5 @@
 .headshot {
-    width: 35%;
+    width: 50%;
     float:left;
     margin-right: 10px;
     margin-left: 10px;
@@ -7,15 +7,19 @@
     align-content: center;
 }
 
+#intro {
+    height: 950px;
+}
+
 #about {
     padding: 20px;
-    margin-top: 100px;
-    height: 400px;
+    margin-top: 15px;
+    height: 775px;
     align-content: center;
 }
 
 #introText{
-    margin-top: 75px;
+    margin-top: 5px;
 }
 
 .flow-text {
@@ -32,16 +36,13 @@ header {
     min-height: 750px;
 }
 
-@media screen and (max-width: 670px) {
-    header {
-        min-height: 500px;
-    }
+.parallax-container {
+    height: "100px;"
 }
 
-@media screen and (max-width: 400px) {
-    .brand-logo {
-        font-size: 1.75rem !important;
-    }
+.parallax {
+    height: "100%";
+    width: "100%";
 }
 
 #pic1 {
@@ -88,11 +89,141 @@ header {
     left: 100px;
 }
 
-.parallax-container {
-    height: "100px;"
+
+@media screen and (min-width: 922px) {
+    header {
+        min-height: 800px;
+    }
+    #intro{
+        height: 75%;
+    }
+    #about {
+        height: 97.5%;
+    }
+    #pic3 {
+        position: relative;
+        top: 75px;
+        left: 50px;
+    }
+    #pic5 {
+        position: relative;
+        top: 75px;
+        left: 50px;
+        width: 225px;
+    }
+    #pic7 {
+        position: relative;
+        height: 250px;
+        top: 20px;
+        left: 50px;
+    }
 }
 
-.parallax {
-    height: "100%";
-    width: "100%";
+@media screen and (min-width: 600px) {
+    header {
+        min-height: 800px;
+    }
+    #intro{
+        height: 75%;
+    }
+    #about {
+        height: 97.5%;
+    }
+    #pic1 {
+        position: relative;
+        height: 250px;
+    }
+    #pic2 {
+        position: relative;
+        top: 50px;
+        margin-bottom: 40px;
+        height: 250px;
+        left: 5px;
+    }
+    #pic3 {
+        position: relative;
+        top: 75px;
+        height: 250px;
+        margin-bottom: 75px;
+    }
+    
+    #pic4 {
+        position: relative;
+        top: 80px;
+        width: 500px;
+        margin-bottom: 75px;
+    }
+    #pic5 {
+        position: relative;
+        top: 75px;
+        width: 250px;
+        margin-bottom: 75px;
+    }
+    #pic6 {
+        position: relative;
+        height: 250px;
+        top: 20px;
+    }
+    #pic7 {
+        position: relative;
+        height: 250px;
+        top: 20px;
+    }
+  
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        min-height: 90%;
+    }
+    #about {
+        height: 99%;
+    }
+
+    #pic1 {
+        position: relative;
+        height: 250px;
+    }
+    #pic2 {
+        position: relative;
+        top: 50px;
+        margin-bottom: 40px;
+        height: 250px;
+        left: 5px;
+    }
+    #pic3 {
+        position: relative;
+        top: 75px;
+        height: 250px;
+        margin-bottom: 75px;
+    }
+    
+    #pic4 {
+        position: relative;
+        top: 80px;
+        width: 500px;
+        margin-bottom: 75px;
+    }
+    #pic5 {
+        position: relative;
+        top: 75px;
+        width: 250px;
+        margin-bottom: 75px;
+    }
+    #pic6 {
+        position: relative;
+        height: 250px;
+        top: 20px;
+    }
+    #pic7 {
+        position: relative;
+        height: 250px;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .brand-logo {
+        font-size: 1.75rem !important;
+    }
 }

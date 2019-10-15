@@ -23,7 +23,7 @@
             <nav class="nav-wrapper blue darken-4">
                 <div class="container">
                     <a href="#" class="brand-logo">Ryan Colosanti</a>
-                    <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <a href="#" class="sidenav-trigger" data-target="mobile-links">
                         <i class="material-icons">menu</i>
                     </a>
                     <ul class="right hide-on-med-and-down">
@@ -31,19 +31,28 @@
                         <li><a href="#projects">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-                    <ul class="sidenav grey lighten-2" id="mobile-menu">
-                        <li><a href="#intro">About</a></li>
-                        <li><a href="#projects">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
                 </div>
             </nav>
         </div>
+        <ul class="sidenav" id="mobile-links">
+                <li><a href="#intro">About</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+        </ul>
         <!-- Introduction -->
         <section class="container section scrollspy" id="intro">
-            <div class="blue lighten-5" id="about">
-                <img src="assets/images/Headshot-1.jpg" class="headshot" />
-                <p class="blue-grey-text text-darken-3 flow-text" id="introText">
+            <div class="blue darken-4" id="about">
+                <img src="assets/images/Headshot-1.jpg" class="headshot col s12 m12" />
+                <p class="blue-grey-text text-lighten-4 flow-text" id="introText">
+                    I’m a bright-eyed, bushy-tailed, new-minted web developer just out of a web development bootcamp. I may not have all the experience in the world, but I can most certainly make up for it with a strong work ethic I built up by working a part-time job while attending college and a passion for learning and absorbing knowledge everyday.
+                </p>
+                <p class="blue-grey-text text-lighten-4 flow-text" id="introText">
+                    Technology has always fascinated me. Whenever I browse the internet or play a video game, I am always asking myself what is going on behind the scenes. What is the code that makes a video play on Youtube, or how does the game know to jump when I press the X button? These questions pushed me to pursue a career in software development.
+                </p>
+                <p class="blue-grey-text text-lighten-4 flow-text" id="introText">
+                    My experience in web development involves a wide array of subjects, including HTML, CSS, Javascript, Node.js, both SQL and noSQL databases, and React.
+                </p>
+                <p class="blue-grey-text text-lighten-4 flow-text" id="introText">
                     Here, you will find a multitude of projects I have completed in the past six months during a coding
                     boot camp. These projects were made with real professional work and in-demand skills in mind.
                 </p>
@@ -57,11 +66,11 @@
     <!-- Apps/Repositories -->
     <section class="container section scrollspy" id="projects">
         <div class="row">
-            <div class="col s12 l4">
+            <div class="col s12 m6 l4">
                 <img style="vertical-align:middle" src="assets/images/BikeToBrew_square.png" alt="bikeToBrewLogo"
                     class="responsive-img" id="pic1" />
             </div>
-            <div class="col s12 l6 offset-l1">
+            <div class="col s12 m6 l6 offset-l1">
                 <h3>Bike to Brew</h3>
                 <p class="blue-grey-text text-darken-3 flow-text">A lifestyle app that connects mountain bikers to
                     local breweries.</p>
@@ -72,11 +81,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col s12 l4 push-l7">
+            <div class="col s12 m6 l4 push-l7 push-m6">
                 <img style="vertical-align:middle" src="assets/images/Dunder_Mifflin,_Inc.svg.png"
                     alt="dunderMifflinLogo" class="responsive-img" id="pic2" />
             </div>
-            <div class="col s12 l6 pull-l4 right-align">
+            <div class="col s12 m6 l6 pull-l4 pull-m6 right-align">
                 <h3>Dunder Mifflin GIF Grabber</h3>
                 <p class="blue-grey-text text-darken-3 flow-text">An app that retrieves gifs of the hit TV show "The
                     Office" from the Giphy API.</p>
@@ -87,11 +96,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col s12 l4">
+            <div class="col s12 m6 l4 pull-m1">
                 <img style="vertical-align:middle" src="assets/images/viviana-rishe-755434-unsplash.jpg"
                     alt="by-viviana-rishe" class="responsive-img" id="pic3" />
             </div>
-            <div class="col s12 l6 offset-l1">
+            <div class="col s12 m6 l6 offset-l1">
                 <h3>All Aboard! Train Scheduler</h3>
                 <p class="blue-grey-text text-darken-3 flow-text">A train schedule app that allows the user to insert
                     train information into a database that updates arrival time upon page refresh.</p>
@@ -102,11 +111,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col s12 l4 push-l7">
+            <div class="col s12 m6 l4 push-l7 push-m7">
                 <img style="vertical-align:middle" src="assets/images/kingCrystalTitle.png" alt="kingCrystalPic"
                     class="responsive-img" id="pic4" />
             </div>
-            <div class="col s12 l6 pull-l4 right-align">
+            <div class="col s12 m6 l6 pull-l4 pull-m6 right-align">
                 <h3>King Crystal</h3>
                 <p class="blue-grey-text text-darken-3 flow-text">A number guessing game with a crystal theme.</p>
                 <a href="https://rjcolo28.github.io/unit-4-game/" target="_blank"
@@ -116,11 +125,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col s12 l4">
+            <div class="col s12 m6 l4 pull-m2">
                 <img style="vertical-align:middle" src="assets/images/RadLibs.png" alt="radLibsPic"
                     class="responsive-img" id="pic5" />
             </div>
-            <div class="col s12 l6 offset-l1">
+            <div class="col s12 m6 l6 offset-l1">
                 <h3>RadLibs</h3>
                 <p class="blue-grey-text text-darken-3 flow-text">A fill-in-the-blank word game that holds user created
                     stories and profiles in a MySQL database.</p>
@@ -131,11 +140,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col s12 l4 push-l7">
+            <div class="col s12 m6 l4 push-l7 push-m7">
                 <img style="vertical-align:middle" src="assets/images/zombie.png"
                     alt="zombiePic" class="responsive-img" id="pic6" />
             </div>
-            <div class="col s12 l6 pull-l4 right-align">
+            <div class="col s12 m6 l6 pull-l4 pull-m6 right-align">
                 <h3>Node Zombies</h3>
                 <p class="blue-grey-text text-darken-3 flow-text">A node based app that runs in a player's terminal.</p>
                 <a href="https://github.com/rjcolo28/NodeZombies" target="_blank"
@@ -143,11 +152,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col s12 l4">
+            <div class="col s12 m6 l4 pull-m1">
                 <img style="vertical-align:middle" src="assets/images/smashBall.png" alt="clickBrosPic"
                     class="responsive-img" id="pic7" />
             </div>
-            <div class="col s12 l6 offset-l1">
+            <div class="col s12 m6 l6 offset-l1">
                 <h3>Super Click Bros</h3>
                 <p class="blue-grey-text text-darken-3 flow-text">A click based game built using the React js library.</p>
                 <a href="https://rjcolo28.github.io/the-clicky-game/" target="_blank"
@@ -165,12 +174,12 @@
     <!-- contact form -->
     <section class="section container scrollspy" id="contact">
         <div class="row">
-            <div class="col s12 l5">
+            <div class="col s12 m6 l5">
                 <h2>Contact</h2>
                 <p class="blue-grey-text darken-4 flow-text">Phone: (303)886-3749</p>
                 <p class="blue-grey-text darken-4 flow-text">Email: ryancolosanti5@gmail.com</p>
             </div>
-            <div class="col s12 l5 offset-l2">
+            <div class="col s12 m6 l5 offset-l2">
                 <h2>Connect</h2>
                 <a href="https://www.linkedin.com/in/ryan-colosanti-76687613a/" target="_blank"
                     class="btn-large blue darken-2 waves-effect waves-light">LinkedIn<i
