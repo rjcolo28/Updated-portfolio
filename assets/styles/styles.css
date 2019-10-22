@@ -1,18 +1,24 @@
 body {
-    background-image: url(../images/folk-pattern-black.png);
+    background-image: url(../images/subliminal.gif);
     background-position: center;
     min-height: 750px;
 }
 
-.headshot {
-    width: 20%;
+#headshot {
+    width: 40%;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
 }
 
 
-#about {
+#name_pic {
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+#intro_text {
     display:flex;
     justify-content:center;
     align-items:center
@@ -30,7 +36,8 @@ header {
 }
 
 .parallax-container {
-    height: "100px;"
+    height: "100px;";
+    width: "100px;"
 }
 
 .parallax {
@@ -38,49 +45,36 @@ header {
     width: "100%";
 }
 
-#projects {
+h2 {
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
+.modal-trigger {
+    margin: 20px;
+    width: 300px;
+}
 
 #pic1 {
     background-color:#e9a500;
 }
 
-
-/* #pic3 {
-    position: relative;
-    top: 75px;
-    left: 35px;
-}
-
-#pic4 {
-    position: relative;
-    top: 80px;
-    right: 35px;
-}
-
-#pic5 {
-    position: relative;
-    top: 75px;
-    left: 120px;
-    width: 225px;
-}
-
 #pic6 {
-    position: relative;
-    height: 300px;
-    top: 20px;
-    right: 35px;
-} */
+    height: 100px;
+}
 
 #pic7 {
     background-color: white;
 }
 
+@media screen and (max-width: 600px) {
+    .modal-trigger {
+        margin: 10px;
+    }
+}
 
+/* 
 @media screen and (min-width: 922px) {
     header {
         min-height: 800px;
@@ -277,4 +271,4 @@ header {
     .brand-logo {
         font-size: 1.75rem !important;
     }
-}
+} */
