@@ -1,25 +1,21 @@
+body {
+    background-image: url(../images/folk-pattern-black.png);
+    background-position: center;
+    min-height: 750px;
+}
+
 .headshot {
-    width: 50%;
-    float:left;
+    width: 20%;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    align-content: center;
 }
 
-#intro {
-    height: 950px;
-}
 
 #about {
-    padding: 20px;
-    margin-top: 15px;
-    height: 775px;
-    align-content: center;
-}
-
-#introText{
-    margin-top: 5px;
+    display:flex;
+    justify-content:center;
+    align-items:center
 }
 
 .flow-text {
@@ -30,10 +26,7 @@
 }
 
 header {
-    background-image: url(../images/abstract-attractive-backdrop-988872.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 750px;
+    min-height: 50px;
 }
 
 .parallax-container {
@@ -45,18 +38,19 @@ header {
     width: "100%";
 }
 
+#projects {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
 #pic1 {
-    position: relative;
-    left: 100px;
+    background-color:#e9a500;
 }
 
-#pic2 {
-    position: relative;
-    top: 50px;
-    right: 30px;
-}
 
-#pic3 {
+/* #pic3 {
     position: relative;
     top: 75px;
     left: 35px;
@@ -80,13 +74,10 @@ header {
     height: 300px;
     top: 20px;
     right: 35px;
-}
+} */
 
 #pic7 {
-    position: relative;
-    height: 250px;
-    top: 20px;
-    left: 100px;
+    background-color: white;
 }
 
 
@@ -132,6 +123,7 @@ header {
     #pic1 {
         position: relative;
         height: 250px;
+        left: 40px;
     }
     #pic2 {
         position: relative;
@@ -236,19 +228,21 @@ header {
     #pic1 {
         position: relative;
         height: 250px;
+        left: 40px;
     }
     #pic2 {
         position: relative;
         top: 50px;
         margin-bottom: 40px;
         height: 250px;
-        left: 5px;
+        left: 10px;
     }
     #pic3 {
         position: relative;
         top: 75px;
         height: 250px;
         margin-bottom: 75px;
+        left: 25px;
     }
     
     #pic4 {
@@ -256,22 +250,26 @@ header {
         top: 80px;
         width: 500px;
         margin-bottom: 75px;
+        left: 30px;
     }
     #pic5 {
         position: relative;
         top: 75px;
         width: 250px;
         margin-bottom: 75px;
+        left: 30px;
     }
     #pic6 {
         position: relative;
         height: 250px;
         top: 20px;
+        left: 50px;
     }
     #pic7 {
         position: relative;
         height: 250px;
         top: 20px;
+        left: 15px;
     }
 }
 
