@@ -1,7 +1,7 @@
 body {
     background-image: url(../images/subliminal.gif);
     background-position: center;
-    min-height: 750px;
+    background-size: auto;
 }
 
 #headshot {
@@ -10,7 +10,6 @@ body {
     margin-left: 10px;
     margin-top: 10px;
 }
-
 
 #name_pic {
     display:flex;
@@ -37,13 +36,13 @@ header {
 
 .parallax-container {
     height: "100px;";
-    width: "100px;"
 }
 
 .parallax {
-    height: "100%";
-    width: "100%";
+    width: "100px";
 }
+
+
 
 h2 {
     display:flex;
@@ -74,90 +73,15 @@ h2 {
     }
 }
 
-/* 
-@media screen and (min-width: 922px) {
-    header {
-        min-height: 800px;
-    }
-    #intro{
-        height: 75%;
-    }
-    #about {
-        height: 97.5%;
-    }
-    #pic3 {
-        position: relative;
-        top: 75px;
-        left: 50px;
-    }
-    #pic5 {
-        position: relative;
-        top: 75px;
-        left: 50px;
-        width: 225px;
-    }
-    #pic7 {
-        position: relative;
-        height: 250px;
-        top: 20px;
-        left: 50px;
-    }
-}
 
-@media screen and (min-width: 600px) {
-    header {
-        min-height: 800px;
-    }
-    #intro{
-        height: 75%;
-    }
-    #about {
-        height: 97.5%;
-    }
-    #pic1 {
-        position: relative;
-        height: 250px;
-        left: 40px;
-    }
-    #pic2 {
-        position: relative;
-        top: 50px;
-        margin-bottom: 40px;
-        height: 250px;
-        left: 5px;
-    }
-    #pic3 {
-        position: relative;
-        top: 75px;
-        height: 250px;
-        margin-bottom: 75px;
-    }
-    
-    #pic4 {
-        position: relative;
-        top: 80px;
-        width: 500px;
-        margin-bottom: 75px;
-    }
-    #pic5 {
-        position: relative;
-        top: 75px;
-        width: 250px;
-        margin-bottom: 75px;
-    }
-    #pic6 {
-        position: relative;
-        height: 250px;
-        top: 20px;
-    }
-    #pic7 {
-        position: relative;
-        height: 250px;
-        top: 20px;
+@media screen and (max-width: 900px) {
+    .parallax-container {
+        height: "100px";
+        width: 1000px;
     }
   
 }
-
+/*
 @media screen and (max-width: 600px) {
     header {
         min-height: 90%;
