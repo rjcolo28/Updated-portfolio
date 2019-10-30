@@ -18,251 +18,259 @@
 
 <body>
     <!-- navbar -->
-    <div class="navbar-fixed">
-        <nav class="nav-wrapper purple darken-4">
-            <a href="#" class="sidenav-trigger" data-target="mobile-links">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="left hide-on-med-and-down">
-                <li><a href="#intro" class="blue-grey-text text-lighten-4">Introduction</a></li>
-                <li><a href="#projects" class="blue-grey-text text-lighten-4">Portfolio</a></li>
-                <li><a href="#contact" class="blue-grey-text text-lighten-4">Contact</a></li>
-            </ul>
-        </nav>
+    <ul id="slide-out" class="sidenav sidenav-fixed center-align">
+        <li><img src="assets/images/Headshot-1.jpg" class="circle" id="headshot" /></li>
+        <li><a class="blue-grey-text text-lighten-4" href="#intro">Introduction</a></li>
+        <li><a class="blue-grey-text text-lighten-4" href="#projects">Portfolio</a></li>
+        <li><a class="blue-grey-text text-lighten-4" href="#contact">Contact</a></li>
+    </ul>
+    <a href="#" class="sidenav-trigger" data-target="mobile-links">
+        <i class="material-icons blue-grey-text text-darken-4">menu</i>
+    </a>
+    </nav>
     </div>
-    <ul class="sidenav" id="mobile-links">
-        <li><a href="#intro">Introduction</a></li>
-        <li><a href="#projects">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <ul class="sidenav center-align" id="mobile-links">
+        <li><img src="assets/images/Headshot-1.jpg" class="circle" id="headshot" /></li>
+        <li><a class="blue-grey-text text-lighten-4" href="#intro">Introduction</a></li>
+        <li><a class="blue-grey-text text-lighten-4" href="#projects">Portfolio</a></li>
+        <li><a class="blue-grey-text text-lighten-4" href="#contact">Contact</a></li>
     </ul>
     <!-- Introduction -->
-    <section class="container section scrollspy" id="intro">
-        <div id="name_pic">
-            <div class="row center-align">
-                <img src="assets/images/Headshot-1.jpg" class="col s12 m6 l4 circle" />
-                <h1 class="col s12 m6 l6 blue-grey-text text-darken-4">Ryan Colosanti</h1>
-                <h3 class="col s12 m6 l6 blue-grey-text text-darken-4">Junior Web Developer</h3>
+    <header>
+        <section class="section scrollspy" id="intro">
+            <div id="name_pic">
+                <div class="row center-align">
+                    <h1 class="col s12 m6 l6 blue-grey-text text-darken-4">Ryan Colosanti</h1>
+                    <h3 class="col s12 m6 l6 blue-grey-text text-darken-4">Junior Web Developer</h3>
+                </div>
             </div>
-        </div>
-        <div id="intro_text">
-            <h5 class="center-align blue-grey-text text-darken-4">
-                Looking to find my place in the web development world. I'm passionate about improving upon methodologies to
-                deliver more efficient products. Excellent team player eager to grow professionally while delivering
-                compelling software solutions.
-            </h5>
-        </div>
-    </section>
+            <div id="intro_text">
+                <h5 class="center-align blue-grey-text text-darken-4">
+                    Looking to find my place in the web development world. I'm passionate about improving upon
+                    methodologies
+                    to
+                    deliver more efficient products. Excellent team player eager to grow professionally while delivering
+                    compelling software solutions.
+                </h5>
+            </div>
+        </section>
+    </header>
     <!-- parallax -->
     <div class="parallax-container">
         <div class="parallax"><img src="assets/images/folk-pattern-black.png"></div>
     </div>
     <!-- Apps/Repositories -->
-    <section class="container section scrollspy" id="projects">
-        <div class="row center-align">
-            <h2 class="col s12 m12 l12 blue-grey-text text-darken-4">Group Projects</h2>
-            <div class="col s12 m6">
-                <img src="assets/images/BikeToBrew_square.png" alt="bikeToBrewLogo" class="responsive-img modal-trigger hoverable"
-                    href="#modal1" id="pic1" />
-            </div>
-            <div id="modal1" class="modal">
-                <div class="modal-content">
-                    <h4>Bike to Brew</h4>
-                    <p> Plan a tasty brew after your trail ride on Bike To Brew through the web or your mobile
-                        device, search breweries and mountain biking trails together based on your chosen
-                        location, brewery, or trail.</p>
-                    <p> My role was setting up connecting the Google Places API to the front-end.</p>
-                    <ul>
-                        <h6>Technologies Used:</h6>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>jQuery</li>
-                        <li>AJAX</li>
-                        <li>APIs: Mountain Bike Project & Google Places</li>
-                        <li>Materialize CSS Framework</li>
-                        <li>Adobe Fonts</li>
-                    </ul>
-                    <a href="https://camille-the-eel.github.io/bike-to-brew/" target="_blank"
-                        class="btn-large deep-purple darken-4 waves-effect waves-light">App</a>
-                    <a href="https://github.com/camille-the-eel/ByteMe" target="_blank"
-                        class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
-                </div>
-            </div>
-            <div class="col s12 m6">
-                <img src="assets/images/RadLibs.png" alt="radLibsPic" class="responsive-img modal-trigger hoverable hoverable"
-                    href="#modal5" id="pic5" />
-            </div>
-            <div id="modal5" class="modal">
-                <div class="modal-content">
-                    <h4>RadLibs</h4>
-                    <p> A fill-in-the-blank word game that holds user created stories and profiles in a
-                        MySQL database.</p>
-                    <p> I built the front-end with Pug.js templating engine and styled it with Materialize
-                        framework</p>
-                    <ul>
-                        <h6>Technologies Used:</h6>
-                        <li>Materialize</li>
-                        <li>Pug.js</li>
-                        <li>MySQL</li>
-                    </ul>
-                    <a href="https://dry-forest-45652.herokuapp.com/" target="_blank"
-                        class="btn-large deep-purple darken-4 waves-effect waves-light">App</a>
-                    <a href="https://github.com/ischu/DomeHead" target="_blank"
-                        class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
-                </div>
-            </div>
-        </div>
-        <div class="row center-align">
-            <div>
-                <h2 class=" col s12 m12 l12 blue-grey-text text-darken-4">Solo Projects</h2>
-            </div>
-            <div class="col s12 m6">
-                <img src="assets/images/Dunder_Mifflin,_Inc.svg.png" alt="dunderMifflinLogo"
-                    class="responsive-img modal-trigger hoverable" href="#modal2" id="pic2" />
-            </div>
-            <div id="modal2" class="modal">
-                <div class="modal-content">
-                    <h4>Dunder Mifflin .gif Grabber</h4>
-                    <p> A website that allows users to grab ten random .gif images from the website Giphy, using the
-                        Giphy API.</p>
-                    <ul>
-                        <h6>Technologies Used:</h6>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>jQuery</li>
-                        <li>Giphy API</li>
-                    </ul>
-                    <a href="https://rjcolo28.github.io/Giftastic/" target="_blank"
-                        class="btn-large deep-purple darken-4 waves-effect waves-light">App</a>
-                    <a href="https://github.com/rjcolo28/Giftastic" target="_blank"
-                        class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
-                </div>
-            </div>
-            <div class="col s12 m6">
-                <img src="assets/images/viviana-rishe-755434-unsplash.jpg" alt="by-viviana-rishe"
-                    class="responsive-img modal-trigger hoverable" href="#modal3" id="pic3" />
-            </div>
-            <div id="modal3" class="modal">
-                <div class="modal-content">
-                    <h4>All Aboard! Train Scheduler</h4>
-                    <p> A train schedule app that allows the user to insert train information into a database
-                        that updates arrival time upon page refresh.</p>
-                    <ul>
-                        <h6>Technologies Used:</h6>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>jQuery</li>
-                        <li>Moment.js</li>
-                        <li>Firebase</li>
-                    </ul>
-                    <a href="https://rjcolo28.github.io/Train-time/" target="_blank"
-                        class="btn-large deep-purple darken-4 waves-effect waves-light">App</a>
-                    <a href="https://github.com/rjcolo28/Train-time" target="_blank"
-                        class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
-                </div>
-            </div>
+    <main>
+        <section class="container section scrollspy" id="projects">
             <div class="row center-align">
+                <h2 class="col s12 m12 l12 blue-grey-text text-darken-4">Group Projects</h2>
                 <div class="col s12 m6">
-                    <img src="assets/images/kingCrystalTitle.png" alt="kingCrystalPic"
-                        class="responsive-img modal-trigger hoverable" href="#modal4" id="pic4" />
+                    <img src="assets/images/BikeToBrew_square.png" alt="bikeToBrewLogo"
+                        class="responsive-img modal-trigger hoverable" href="#modal1" id="pic1" />
                 </div>
-                <div id="modal4" class="modal">
+                <div id="modal1" class="modal">
                     <div class="modal-content">
-                        <h4>King Crystal</h4>
-                        <p> A number guessing game that creates a random number the player must reach by
-                            selecting crystals of randomly generated values.</p>
+                        <h4>Bike to Brew</h4>
+                        <p> Plan a tasty brew after your trail ride on Bike To Brew through the web or your mobile
+                            device, search breweries and mountain biking trails together based on your chosen
+                            location, brewery, or trail.</p>
+                        <p> My role was setting up connecting the Google Places API to the front-end.</p>
                         <ul>
                             <h6>Technologies Used:</h6>
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>Javascript</li>
                             <li>jQuery</li>
+                            <li>AJAX</li>
+                            <li>APIs: Mountain Bike Project & Google Places</li>
+                            <li>Materialize CSS Framework</li>
+                            <li>Adobe Fonts</li>
                         </ul>
-                        <a href="https://rjcolo28.github.io/unit-4-game/" target="_blank"
+                        <a href="https://camille-the-eel.github.io/bike-to-brew/" target="_blank"
                             class="btn-large deep-purple darken-4 waves-effect waves-light">App</a>
-                        <a href="https://github.com/rjcolo28/unit-4-game" target="_blank"
+                        <a href="https://github.com/camille-the-eel/ByteMe" target="_blank"
                             class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
                     </div>
                 </div>
                 <div class="col s12 m6">
-                    <img src="assets/images/gameStart.png" alt="zombiePic" class="responsive-img modal-trigger hoverable"
-                        href="#modal6" id="pic6" />
+                    <img src="assets/images/RadLibs.png" alt="radLibsPic"
+                        class="responsive-img modal-trigger hoverable hoverable" href="#modal5" id="pic5" />
                 </div>
-                <div id="modal6" class="modal">
+                <div id="modal5" class="modal">
                     <div class="modal-content">
-                        <h4>Node Zombies</h4>
-                        <p> A game where the player must defeat a zombie before it kills them. Its is a
-                            Node-based game that can be ran on the terminal that uses Inquirer.js to run the
-                            prompts.</p>
+                        <h4>RadLibs</h4>
+                        <p> A fill-in-the-blank word game that holds user created stories and profiles in a
+                            MySQL database.</p>
+                        <p> I built the front-end with Pug.js templating engine and styled it with Materialize
+                            framework</p>
                         <ul>
                             <h6>Technologies Used:</h6>
-                            <li>Node.js</li>
-                            <li>Inquirer.js</li>
-                            <li>Javascript</li>
+                            <li>Materialize</li>
+                            <li>Pug.js</li>
+                            <li>MySQL</li>
                         </ul>
-                        <a href="https://github.com/rjcolo28/NodeZombies" target="_blank"
-                            class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
-                    </div>
-                </div>
-                <div class="col s12 m6 center-align">
-                    <img src="assets/images/smashBall.png" alt="clickBrosPic" class="responsive-img modal-trigger hoverable"
-                        href="#modal7" id="pic7" />
-                </div>
-                <div id="modal7" class="modal">
-                    <div class="modal-content">
-                        <h4>Click Bros. Ultimate</h4>
-                        <p> Click Bros. Ultimate is a simple clicking game with a Super Smash Bros theme. The
-                            player's goal is to click every image once. The images are stored in a .json file
-                            that are accessed as React components.</p>
-                        <ul>
-                            <h6>Technologies Used:</h6>
-                            <li>React</li>
-                            <li>JSX</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Bootstrap</li>
-                        </ul>
-                        <a href="https://rjcolo28.github.io/the-clicky-game/" target="_blank"
+                        <a href="https://dry-forest-45652.herokuapp.com/" target="_blank"
                             class="btn-large deep-purple darken-4 waves-effect waves-light">App</a>
-                        <a href="https://github.com/rjcolo28/the-clicky-game" target="_blank"
+                        <a href="https://github.com/ischu/DomeHead" target="_blank"
                             class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
                     </div>
                 </div>
             </div>
-    </section>
+            <div class="row center-align">
+                <div>
+                    <h2 class=" col s12 m12 l12 blue-grey-text text-darken-4">Solo Projects</h2>
+                </div>
+                <div class="col s12 m6">
+                    <img src="assets/images/Dunder_Mifflin,_Inc.svg.png" alt="dunderMifflinLogo"
+                        class="responsive-img modal-trigger hoverable" href="#modal2" id="pic2" />
+                </div>
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <h4>Dunder Mifflin .gif Grabber</h4>
+                        <p> A website that allows users to grab ten random .gif images from the website Giphy, using the
+                            Giphy API.</p>
+                        <ul>
+                            <h6>Technologies Used:</h6>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>jQuery</li>
+                            <li>Giphy API</li>
+                        </ul>
+                        <a href="https://rjcolo28.github.io/Giftastic/" target="_blank"
+                            class="btn-large deep-purple darken-4 waves-effect waves-light">App</a>
+                        <a href="https://github.com/rjcolo28/Giftastic" target="_blank"
+                            class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <img src="assets/images/viviana-rishe-755434-unsplash.jpg" alt="by-viviana-rishe"
+                        class="responsive-img modal-trigger hoverable" href="#modal3" id="pic3" />
+                </div>
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                        <h4>All Aboard! Train Scheduler</h4>
+                        <p> A train schedule app that allows the user to insert train information into a database
+                            that updates arrival time upon page refresh.</p>
+                        <ul>
+                            <h6>Technologies Used:</h6>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>jQuery</li>
+                            <li>Moment.js</li>
+                            <li>Firebase</li>
+                        </ul>
+                        <a href="https://rjcolo28.github.io/Train-time/" target="_blank"
+                            class="btn-large deep-purple darken-4 waves-effect waves-light">App</a>
+                        <a href="https://github.com/rjcolo28/Train-time" target="_blank"
+                            class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
+                    </div>
+                </div>
+                <div class="row center-align">
+                    <div class="col s12 m6">
+                        <img src="assets/images/kingCrystalTitle.png" alt="kingCrystalPic"
+                            class="responsive-img modal-trigger hoverable" href="#modal4" id="pic4" />
+                    </div>
+                    <div id="modal4" class="modal">
+                        <div class="modal-content">
+                            <h4>King Crystal</h4>
+                            <p> A number guessing game that creates a random number the player must reach by
+                                selecting crystals of randomly generated values.</p>
+                            <ul>
+                                <h6>Technologies Used:</h6>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>jQuery</li>
+                            </ul>
+                            <a href="https://rjcolo28.github.io/unit-4-game/" target="_blank"
+                                class="btn-large deep-purple darken-4 waves-effect waves-light">App</a>
+                            <a href="https://github.com/rjcolo28/unit-4-game" target="_blank"
+                                class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+                        <img src="assets/images/gameStart.png" alt="zombiePic"
+                            class="responsive-img modal-trigger hoverable" href="#modal6" id="pic6" />
+                    </div>
+                    <div id="modal6" class="modal">
+                        <div class="modal-content">
+                            <h4>Node Zombies</h4>
+                            <p> A game where the player must defeat a zombie before it kills them. Its is a
+                                Node-based game that can be ran on the terminal that uses Inquirer.js to run the
+                                prompts.</p>
+                            <ul>
+                                <h6>Technologies Used:</h6>
+                                <li>Node.js</li>
+                                <li>Inquirer.js</li>
+                                <li>Javascript</li>
+                            </ul>
+                            <a href="https://github.com/rjcolo28/NodeZombies" target="_blank"
+                                class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 center-align">
+                        <img src="assets/images/smashBall.png" alt="clickBrosPic"
+                            class="responsive-img modal-trigger hoverable" href="#modal7" id="pic7" />
+                    </div>
+                    <div id="modal7" class="modal">
+                        <div class="modal-content">
+                            <h4>Click Bros. Ultimate</h4>
+                            <p> Click Bros. Ultimate is a simple clicking game with a Super Smash Bros theme. The
+                                player's goal is to click every image once. The images are stored in a .json file
+                                that are accessed as React components.</p>
+                            <ul>
+                                <h6>Technologies Used:</h6>
+                                <li>React</li>
+                                <li>JSX</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            <a href="https://rjcolo28.github.io/the-clicky-game/" target="_blank"
+                                class="btn-large deep-purple darken-4 waves-effect waves-light">App</a>
+                            <a href="https://github.com/rjcolo28/the-clicky-game" target="_blank"
+                                class="btn-large deep-purple darken-4 waves-effect waves-light">Repository</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
     <!-- parallax -->
     <div class="parallax-container">
         <div class="parallax"><img src="assets/images/folk-pattern-black.png"></div>
     </div>
 
     <!-- contact form -->
-    <section class="section container scrollspy" id="contact">
-        <div class="row">
-            <div class="col s12 m6 l5">
-                <h2 class="blue-grey-text text-darken-4">Contact</h2>
-                <p class="blue-grey-text text-darken-4 flow-text">Phone: (303)886-3749</p>
-                <p class="blue-grey-text text-darken-4 flow-text">Email: ryancolosanti5@gmail.com</p>
+    <footer>
+        <section class="section container scrollspy" id="contact">
+            <div class="row">
+                <div class="col s12 m6 l5">
+                    <h2 class="blue-grey-text text-darken-4">Contact</h2>
+                    <p class="blue-grey-text text-darken-4 flow-text">Phone: (303)886-3749</p>
+                    <p class="blue-grey-text text-darken-4 flow-text">Email: ryancolosanti5@gmail.com</p>
+                </div>
+                <div class="col s12 m6 l5 offset-l2">
+                    <br>
+                    <br>
+                    <a href="https://www.linkedin.com/in/ryan-colosanti-76687613a/" target="_blank"
+                        class="blue darken-2 waves-effect waves-light btn-large"> LinkedIn <i
+                            class="fab fa-linkedin left"></i></a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/rjcolo28" target="_blank"
+                        class="black waves-effect waves-light btn-large">
+                        GitHub <i class="fab fa-github left"></i></a>
+                    <br>
+                    <br>
+                    <a href="https://docs.google.com/document/d/1g_m4kH09emKxIjO23clXoWU2bgNVp7utrYZJg-NTtMw/edit?usp=sharing"
+                        target="_blank" class="blue darken-2 waves-effect waves-light btn-large"> Resume <i
+                            class="fas fa-file-alt left"></i></a>
+                </div>
             </div>
-            <div class="col s12 m6 l5 offset-l2">
-                <br>
-                <br>
-                <a href="https://www.linkedin.com/in/ryan-colosanti-76687613a/" target="_blank"
-                    class="blue darken-2 waves-effect waves-light btn-large"> LinkedIn <i
-                        class="fab fa-linkedin left"></i></a>
-                <br>
-                <br>
-                <a href="https://github.com/rjcolo28" target="_blank" class="black waves-effect waves-light btn-large">
-                    GitHub <i class="fab fa-github left"></i></a>
-                <br>
-                <br>
-                <a href="https://docs.google.com/document/d/1g_m4kH09emKxIjO23clXoWU2bgNVp7utrYZJg-NTtMw/edit?usp=sharing"
-                    target="_blank" class="blue darken-2 waves-effect waves-light btn-large"> Resume <i
-                        class="fas fa-file-alt left"></i></a>
-            </div>
-        </div>
-    </section>
+        </section>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
