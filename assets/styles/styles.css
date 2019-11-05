@@ -1,3 +1,7 @@
+html {
+    width: 100%;
+}
+
 header, main, footer {
     padding-left: 300px;
   }
@@ -9,7 +13,12 @@ header, main, footer {
   }
 
 header {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+h5 {
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .sidenav {
@@ -31,18 +40,6 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
-}
-
-#name_pic {
-    display:flex;
-    justify-content:center;
-    align-items:center
-}
-
-#intro_text {
-    display:flex;
-    justify-content:center;
-    align-items:center
 }
 
 .flow-text {
